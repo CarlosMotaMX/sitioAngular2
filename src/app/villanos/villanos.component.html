@@ -14,17 +14,17 @@
                 <h5><b>
                 <div><span>id: </span> <span class="badge badge-primary">{{selectedVillano.id}} </span></div>
                 <div>
-                    <b><label for="villan-name"> Villano Nombre: </label></b>
+                    <b><label for="villan-name">Nombre: </label></b>
                     <input type="text" [(ngModel)]="selectedVillano.name" placeholder="poder" class="form-control">
             </div>
             <div>
-                <label for="villan-nivel">nivel De Poder: </label>
+                <label for="villan-nivel">Fortaleza: </label>
                 <input type="text" [(ngModel)]="selectedVillano.nivel" placeholder="poder" class="form-control" disabled>
                 <button (click)="onPlus(selectedVillano)">Mas Poder</button>
             </div>
 
             <div>
-                <label for="villan-poder"> Villano Poder</label>
+                <label for="villan-poder">Poder: </label>
                 <input type="text" [(ngModel)]="selectedVillano.poder" placeholder="poder" class="form-control">
             </div>
             </b>
